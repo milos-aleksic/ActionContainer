@@ -1,0 +1,34 @@
+{
+    "name": "containeraction",
+    "title": "Container Action",
+    "group": "Custom Events",
+    "description": "Trigger a custom function",
+    "icon": "${url:~theme/modules/ContainerAction/icon.svg}",
+    "fields": {
+        "methodname": {
+            "label": "Function Name",
+            "description": "The name of the function to trigger. Create your custom functions in CustomFunctions.php file.",
+            "default": "CustomAction",
+            "source": true,
+            "formPlaceholder": true
+        },
+        "name": "${yooessentials.form.fields.action_name}",
+        "status": "${yooessentials.form.fields.action_status}",
+        "conditions": "${yooessentials.form.fields.action_conditions}"
+    },
+    "fieldset": {
+        "default": {
+            "type": "tabs",
+            "fields": [
+                {
+                    "title": "Function",
+                    "fields": ["methodname"]
+                },
+                {
+                    "title": "Advanced",
+                    "fields": ["name", "status", "conditions"]
+                }
+            ]
+        }
+    }
+}
