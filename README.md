@@ -6,7 +6,7 @@ In order to be able to use this Action Container, you need to have a child theme
 
 Follow this steps to enable the Action Container
 - Download ZIP from this Github
-- Unzpi it, you should end up with a folde called ActionContainer
+- Unzpi it, you should end up with a folder called ActionContainer-main, remove -main for better reading
 - Create a folder within your child theme called *modules*
 - Create a file within your child theme called config.php
 - Add the follwoing code there: https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality
