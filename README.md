@@ -11,3 +11,4 @@ Follow this steps to enable the Action Container
 - Create a file within your child theme called config.php
 - Add the follwoing code there: https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality
 - Upload the unzpipped folder to modules folder.
+- Add an instance of Action Container to your form, by default it is set to work with the sample function located in CustomFunctions.php, you can create new functions and use their names to trigger different actions.
