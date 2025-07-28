@@ -35,7 +35,7 @@ class ContainerAction extends StandardAction
         $response->submission()->setData($formData);
 
         return $next(
-            $response->withDataLog([
+            $response->withData([
                 $method => [
                     'config' => $config,
                     'data' => (string) $method_response['data'],
